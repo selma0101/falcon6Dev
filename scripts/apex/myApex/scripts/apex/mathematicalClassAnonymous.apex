@@ -1,0 +1,9 @@
+MathematicalClass operation = new MathematicalClass();
+integer resultOfTotal = operation.addition(80, 20);
+system.debug('The result of a + b = ' + resultOfTotal);
+integer resultOfMinus = operation.subtraction(80, 20);
+system.debug('The result of a - b = ' + resultOfMinus);
+integer resultOfTimes = operation.multiplication(80, 20);
+system.debug('The result of a * b = ' + resultOfTimes);
+integer resultOfOver = operation.division(80, 20);
+system.debug('The result of a / b = ' + resultOfOver);
